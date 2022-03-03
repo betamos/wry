@@ -41,8 +41,13 @@ serde = { version = "1.0", features = [ "derive" ] }
 serde_json = "1.0"
 thiserror = "1.0"
 url = "2.2"
-tao = { version = "0.7", default-features = false, features = [ "serde" ] }
 http = "0.2.6"
+
+[dependencies.tao]
+git = "https://github.com/betamos/tao"
+branch = "betamos-head"
+default-features = false
+features = [ "serde" ]
 
 [dev-dependencies]
 anyhow = "1.0.56"
