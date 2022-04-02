@@ -45,7 +45,7 @@ http = "0.2.6"
 
 [dependencies.tao]
 git = "https://github.com/betamos/tao"
-branch = "betamos-head"
+branch = "dev"
 default-features = false
 features = [ "serde" ]
 
